@@ -1,5 +1,8 @@
 # Dynamic pricing and predictive inventory engine
 
+
+https://dynamic-pricing-engine-ashen.vercel.app
+
 This program stands in for a pricing person a small or mid-size shop cannot hire. One product goes in. Three answers come out: how many units to expect next week, a price to hold, mark down, raise, or match, and a stock alert (reorder, clear, or ok). Under those answers the page writes the arithmetic, plus a factor-desk score of the same weeks (coverage, Rank IC, ICIR, Q5−Q1, no lookahead), using the QuantSkills checklist on this SKU rather than on stocks. A person still has to approve the price. Nothing is written to a till.
 
 Phase 1 is the part that runs today: a sales history you already have, numbers you type for stock and the market, and a recommendation on one page. The suggested price still uses the four-week mean and the sales-fall percent you typed, so you can check it with a calculator. Competitor feeds, automatic price changes, a forecast other than that mean, and several products in one run are later work. They are listed in [docs/PLAN.md](docs/PLAN.md).
